@@ -80,7 +80,7 @@ public class NumeroSecreto {
     }
     
     public static void main(String[] args) {
-        NumeroSecreto ns = new NumeroSecreto(100, 1);
+        NumeroSecreto ns = new NumeroSecreto(1000, 1);
         int numero = ns.getNumeroSecreto();
         System.out.println("El número secreto es " + numero);
         System.out.println("Límite inferior del número secreto: " + 
